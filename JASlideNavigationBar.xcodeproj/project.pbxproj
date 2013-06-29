@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B3BC30D177E4BE900F439A1 /* iPhone_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3BC30C177E4BE900F439A1 /* iPhone_Storyboard.storyboard */; };
+		3B3BC310177E4C3D00F439A1 /* JASlideNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3BC30F177E4C3D00F439A1 /* JASlideNavigationBar.m */; };
+		3B3BC313177E4CCC00F439A1 /* JATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3BC312177E4CCC00F439A1 /* JATableViewController.m */; };
 		3BEF8136177E4A5E00DC9025 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BEF8135177E4A5E00DC9025 /* UIKit.framework */; };
 		3BEF8138177E4A5E00DC9025 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BEF8137177E4A5E00DC9025 /* Foundation.framework */; };
 		3BEF813A177E4A5E00DC9025 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BEF8139177E4A5E00DC9025 /* CoreGraphics.framework */; };
@@ -19,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B3BC30C177E4BE900F439A1 /* iPhone_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone_Storyboard.storyboard; sourceTree = "<group>"; };
+		3B3BC30E177E4C3D00F439A1 /* JASlideNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASlideNavigationBar.h; sourceTree = "<group>"; };
+		3B3BC30F177E4C3D00F439A1 /* JASlideNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASlideNavigationBar.m; sourceTree = "<group>"; };
+		3B3BC311177E4CCC00F439A1 /* JATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JATableViewController.h; sourceTree = "<group>"; };
+		3B3BC312177E4CCC00F439A1 /* JATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JATableViewController.m; sourceTree = "<group>"; };
 		3BEF8132177E4A5E00DC9025 /* JASlideNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JASlideNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BEF8135177E4A5E00DC9025 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3BEF8137177E4A5E00DC9025 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -80,7 +88,12 @@
 			children = (
 				3BEF8144177E4A5E00DC9025 /* JAAppDelegate.h */,
 				3BEF8145177E4A5E00DC9025 /* JAAppDelegate.m */,
+				3B3BC311177E4CCC00F439A1 /* JATableViewController.h */,
+				3B3BC312177E4CCC00F439A1 /* JATableViewController.m */,
 				3BEF813C177E4A5E00DC9025 /* Supporting Files */,
+				3B3BC30C177E4BE900F439A1 /* iPhone_Storyboard.storyboard */,
+				3B3BC30E177E4C3D00F439A1 /* JASlideNavigationBar.h */,
+				3B3BC30F177E4C3D00F439A1 /* JASlideNavigationBar.m */,
 			);
 			path = JASlideNavigationBar;
 			sourceTree = "<group>";
@@ -155,6 +168,7 @@
 				3BEF8148177E4A5E00DC9025 /* Default.png in Resources */,
 				3BEF814A177E4A5E00DC9025 /* Default@2x.png in Resources */,
 				3BEF814C177E4A5E00DC9025 /* Default-568h@2x.png in Resources */,
+				3B3BC30D177E4BE900F439A1 /* iPhone_Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +181,8 @@
 			files = (
 				3BEF8142177E4A5E00DC9025 /* main.m in Sources */,
 				3BEF8146177E4A5E00DC9025 /* JAAppDelegate.m in Sources */,
+				3B3BC310177E4C3D00F439A1 /* JASlideNavigationBar.m in Sources */,
+				3B3BC313177E4CCC00F439A1 /* JATableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +299,7 @@
 				3BEF8151177E4A5E00DC9025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
